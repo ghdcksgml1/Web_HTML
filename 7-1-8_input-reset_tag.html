@@ -1,0 +1,19 @@
+<!--
+    type이 속성값이면 같은 폼 내에 있는 입력한 정보들이 모두 초기화됩니다.
+    <input type="reset" value="다시 입력" />
+-->
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>input 태그 활용</title>
+    </head>
+    <body>
+        <h1>input태그의 type이 reset</h1>
+        입력폼에 값을 입력하고 다시 [입력 버튼을 누르세요.]
+        <form name="signUp" method="post" action="signup.php">
+            아이디<input type="text" name="userId" value=""/>
+            <input type="reset" value="다시 입력"/>
+        </form>
+    </body>
+</html>

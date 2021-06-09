@@ -1,0 +1,23 @@
+<!--
+    label 태그는 input 태그와 짝을 이루어 사용합니다.
+    예를 들어, 성별을 선택하는 기능을 만들려면 라디오 박스를 사용해야 합니다.
+    해당 라디오박스가 무엇을 의미하는지는 사용자가 볼 수 있는 명칭을 부여할 때
+    label 태그를 사용합니다.
+-->
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>label 태그 활용</title>
+    </head>
+    <body>
+        <h1>label 태그의 활용</h1>
+        <p>
+            성별 선택<br/><br/>
+            <label for="woman">여성</label>
+            <input type="radio" name="gender" value="w" id="woman"/>
+            <label for="man">남성</label>
+            <input type="radio" name="gender" value="m" id="man"/>
+        </p>
+    </body>
+</html>

@@ -1,0 +1,42 @@
+<!--
+    셀 병합 기능 
+    가로 셀 병합 : colspan
+    세로 셀 병합 : rowspan
+-->
+<!doctype html>
+<html>
+    <header>
+        <meta charset="utf-8"/>
+        <title>table 태그 활용</title>
+    </header>
+    <body>
+        <h1>가로셀 병합 colspan 활용</h1>
+        <table width="200" bgcolor="skyblue" cellpadding="1">
+            <tr align="center" bgcolor="white">
+                <td colspan="3">
+                    3칸 병합
+                </td>
+            </tr>
+            <tr align="center" bgcolor="white">
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+            </tr>
+        </table>
+        <h1>세로셀 병합 rowspan 활용</h1>
+        <table width="200" bgcolor="skyblue" cellpadding="1">
+            <tr align="center" bgcolor="white" height="30">
+                <td rowspan="3" width="50%">
+                    3줄 병합
+                </td>
+                <td>1</td>
+            </tr>
+            <tr align="center" bgcolor="white" height="30">
+                <td>2</td>
+            </tr>
+            <tr align="center" bgcolor="white" height="30">
+                <td>3</td>
+            </tr>
+        </table>
+    </body>
+</html>

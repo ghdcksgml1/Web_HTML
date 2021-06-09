@@ -1,0 +1,21 @@
+<!--
+    checkbox와 다르게 radio type은 중복 선택 불가
+    단, name을 같게 해줘야한다.
+    name이 다르면 다른 radio type으로 인식
+-->
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>input 태그 활용</title>
+    </head>
+    <body>
+        <h1>input태그의 type이 radio</h1>
+        <h2>취미</h2>
+        <p>
+            음악감상<input type="radio" name="myHobby" value="music" checked/>
+            영화감상<input type="radio" name="myHobby" value="movie"/>
+            수집<input type="radio" name="myHobby" value="collection"/>
+        </p>
+    </body>
+</html>

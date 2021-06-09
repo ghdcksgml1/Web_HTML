@@ -1,0 +1,23 @@
+<!--
+    type 속성값이 email이면 email 입력 폼이 됩니다.
+    해당 폼에는 이메일 주소의 규칙인 @과 도메인이 있어야합니다.
+    <form>
+        E-mail:
+        <input type="email" name="email"/>
+        <input type="submit"/>
+    </form>
+-->
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>input 태그 활용</title>
+    </head>
+    <body>
+        <h1>input태그의 type이 email</h1>
+        <form name="signUp" method="post" action="signup.php">
+            email:<input type="email"/>
+            <input type="submit" value="submit"/>
+        </form>
+    </body>
+</html>
